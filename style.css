@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+    background-color: #f1f1f2;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech {
+    position: relative;
+    width: 70vw;
+    height: 70vh;
+    background-color: #e2e2e4;
+    border-radius: 26px;
+    overflow: hidden;
+}
+
+/* mobile circle start */
+.circle {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 100%;
+    filter: blur(6px);
+}
+
+.c1 {
+    left: 0;
+    top: 0;
+    width: 15rem;
+    height: 15rem;
+}
+
+.c2 {
+    right: 0;
+    bottom: 0;
+    width: 10rem;
+    height: 10rem;
+}
+
+/* mobile circle end */
+
+/* back effeck start */
+.blurC {
+    position: absolute;
+    background-color: #7aadf9;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    filter: blur(12rem);
+}
+
+.c3 {
+    left: 10rem;
+    top: -10rem;
+}
+
+.c4 {
+    right: 0;
+    bottom: -10rem;
+}
+
+/* back effeck end */
+
+/* text start */
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+    height: 100%;
+    color: #34353c;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    row-gap: 40px;
+}
+
+.techonologies {
+    text-align: left;
+}
+
+.future {
+    text-align: right;
+}
